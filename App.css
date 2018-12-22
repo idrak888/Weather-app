@@ -1,0 +1,75 @@
+body {
+	overflow: hidden;
+	background-image: url("images/main.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	color: #E9FDFF;
+	background-color: black;
+	font-family: Segoe UI;
+}
+table {
+  display: block;
+  margin-top: 100px;
+}
+
+table td {
+  display: inline;
+  margin: 10px;
+}
+
+.InputBox, .OutputBox {
+	opacity: 0.8;
+  display: inline-block;
+  height: 400px;
+  width: 300px;
+  padding: 25px;
+  background-color: #183471;
+  border: 1px solid white;
+}
+strong {
+	font-size: x-large;
+}
+.InputBox {
+	float: left;
+	margin-left: 340px;
+}
+.OutputBox i {
+	font-size: large;
+}
+.OutputBox {
+	margin-right: 240px;
+}
+.InputBox .btn {
+	width: 200px;
+	margin-top: 10px;
+}
+.InputBox input {
+	margin-top: 150px;
+	width: 200px;
+}
+.OutputBox .col-xs-{
+	font-size: large;
+
+}
+@media only screen and (max-width: 1250px) {
+	.InputBox, .OutputBox {
+		width: 200px;
+		height: 300px;
+	}
+	.InputBox .btn {
+		width: 150px;
+		margin-top: 10px;
+	}
+	.InputBox input {
+		margin-top: 50px;
+		width: 150px;
+	}
+}
+
+@media only screen and (max-width: 1020px) {
+	body {
+		display: none;
+	}
+}
+
